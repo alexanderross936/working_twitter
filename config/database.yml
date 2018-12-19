@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: 'some_name'
+  username: 'postgres'
+  password: '2133Hiline?'
+  host: localhost
+  port: 5432
